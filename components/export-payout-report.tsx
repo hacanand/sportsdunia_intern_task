@@ -20,7 +20,7 @@ interface ExportPayoutReportProps {
 }
 
 export function ExportPayoutReport({ payouts }: ExportPayoutReportProps) {
-  const [isExporting, setIsExporting] = useState(false);
+//   const [isExporting, setIsExporting] = useState(false);
 
   const exportToPDF = () => {
     const doc = new jsPDF();
